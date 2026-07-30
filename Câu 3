@@ -2,9 +2,8 @@
 #include <PubSubClient.h>
 
 // ================= THÔNG TIN CẤU HÌNH =================
-const char* ssid        = "YOUR_WIFI_SSID";       // Tên WiFi
-const char* password    = "YOUR_WIFI_PASSWORD";   // Mật khẩu WiFi
-const char* mqtt_server = "192.168.1.X";         // IP Raspberry Pi (OpenHAB/Mosquitto)
+const char* ssid        = "phuc";       // Tên WiFi
+const char* mqtt_server = "192.168.98.89"; // IP Raspberry Pi (OpenHAB/Mosquitto)
 const int   mqtt_port   = 1883;                   // Cổng MQTT
 
 // Cấu hình chân phần cứng
